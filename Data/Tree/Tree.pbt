@@ -19,6 +19,7 @@ Objects {
   ChildIds: 5505624639612583424
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
+  ChildIds: 11606221886550001900
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -28,6 +29,203 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11606221886550001900
+  Name: "WeaponBuyMenu"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 242842794305379728
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 7123088584244893025
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -5
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -135
+        }
+        Overrides {
+          Name: "Width"
+          Int: 132
+        }
+        Overrides {
+          Name: "Height"
+          Int: 152
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 474657565386583909
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 7629598235353554127
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -395
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 170
+        }
+        Overrides {
+          Name: "Width"
+          Int: 144
+        }
+        Overrides {
+          Name: "Height"
+          Int: 149
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7254391848404930689
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 9705630697103779537
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 375
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 160
+        }
+        Overrides {
+          Name: "Width"
+          Int: 105
+        }
+        Overrides {
+          Name: "Height"
+          Int: 94
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8032570475041407460
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 5172337278154199014
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -400
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -145
+        }
+        Overrides {
+          Name: "Width"
+          Int: 120
+        }
+        Overrides {
+          Name: "Height"
+          Int: 117
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14007635062627898415
+      value {
+        Overrides {
+          Name: "Name"
+          String: "WeaponBuyMenu"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 386.101044
+            Y: -506.117126
+            Z: 2.28881836e-05
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17010118602942894462
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 9504234495387667783
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -10
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 145
+        }
+        Overrides {
+          Name: "Width"
+          Int: 118
+        }
+        Overrides {
+          Name: "Height"
+          Int: 122
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17531159018819310485
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 1453118653991669783
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 385
+        }
+        Overrides {
+          Name: "UIY"
+          Float: -140
+        }
+        Overrides {
+          Name: "Width"
+          Int: 106
+        }
+        Overrides {
+          Name: "Height"
+          Int: 120
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5715586408124327982
+    }
   }
 }
 Objects {

@@ -1,0 +1,8 @@
+﻿Assets {
+  Id: 8641255550136666505
+  Name: "WeaponProjectileExplosionServer"
+  PlatformAssetType: 3
+  TextAsset {
+  }
+  SerializationVersion: 65
+}
