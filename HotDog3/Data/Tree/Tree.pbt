@@ -96,6 +96,7 @@ Objects {
   ChildIds: 6000143749252698521
   ChildIds: 13127095474863371171
   ChildIds: 10837459009467405962
+  ChildIds: 12486982603757343154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -104,6 +105,45 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 12486982603757343154
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 13039.625
+      Y: -1428.94287
+      Z: 629.342651
+    }
+    Rotation {
+    }
+    Scale {
+      X: 25.096077
+      Y: 22.5341072
+      Z: 35.4098282
+    }
+  }
+  ParentId: 18356335688359723660
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -2118,6 +2158,7 @@ Objects {
   ChildIds: 14037935194107783993
   ChildIds: 15766769486713010671
   ChildIds: 7363909260131510729
+  ChildIds: 17957901597106065141
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2126,6 +2167,44 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17957901597106065141
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 10296.5068
+      Y: -1036.54797
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3592284231556804451
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7662382394731727070
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
